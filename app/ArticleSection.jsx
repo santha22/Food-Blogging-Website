@@ -9,9 +9,9 @@ const ArticleSection = ({
     totalPages
 }) => {
   return (
-    <section className="mb-16 px-24">
-        <h2 className="text-4xl font-bold text-[#0E2368] text-center mb-8">Latest Articles</h2>
-        <div className="grid grid-cols-3 gap-8">
+    <section className="mb-16 px-8 md:px-24">
+        <h2 className="text-2xl md:text-4xl font-bold text-[#0E2368] text-center md:text-start mb-8">Latest Articles</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {displayedArticles.map((article, index) => (
             <ArticleCard 
               key={index}

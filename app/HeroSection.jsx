@@ -2,28 +2,48 @@ import React from 'react';
 import Image from 'next/image';
 
 const HeroSection = () => {
+    
   return (
-    <section className="max-h-[804px] relative flex justify-between items-center mb-16">
-        <div className="w-1/2 pl-24 pr-8">
+    <section className="flex flex-col md:flex-row justify-between items-center mb-16">
+        <div className="relative order-2 md:order-1 w-full md:w-1/2 px-8 md:pl-24 md:pr-8 text-center md:text-left">
+          <Image src="/Screenshot_669 1.png" alt="Food Truck" width={735} height={804} className="top-10 w-20 h-16 mb-8 hidden md:inline-block" />
+          <h1 className="text-3xl md:text-5xl font-bold text-[#0E2368] leading-tight mb-6 pt-10 md:pt-0">
+            Discover the <span className="text-[#E23744]">Best</span> Food and Drinks
+          </h1>
+          <p className="text-base text-[#444957] mb-8">
+            Naturally made Healthcare Products for the better care & support of your body.
+          </p>
+          <button className="bg-[#E23744] text-white px-8 py-3 rounded-full">Explore Now!</button>
+        </div>
+        <div className="order-1 md:order-2 w-full md:w-1/2 relative">
+          <Image src="/Rectangle 400.png" alt="Pizza" width={107} height={83} className="w-full md:rounded-bl-[200px]" />
+          <button className="absolute top-4 right-4 border border-white text-white px-3 py-1 rounded-full text-sm">
+            Get In Touch
+          </button>
+        </div>
+
+
+
+          {/* <button className="z-10 absolute top-10 right-8 border border-white text-white px-3 py-1 rounded-full">
+            Get In Touch
+          </button>
+        <div className="w-full pl-24 pr-8">
           <Image src="/Screenshot_669 1.png" alt="Food Truck" width={107} height={83} className="mb-8 absolute top-[33px] left-[100px]" />
           <div className="w-[345px] h-[207px] top-[227px] left-[100px]">
-            <h1 className="text-5xl font-bold text-[#0E2368] leading-tight mb-6">
+            <h1 className="text-3xl md:text-5xl font-bold text-[#0E2368] leading-tight mb-6">
               Discover the <span className="text-[#E23744]">Best</span> Food and Drinks
             </h1>
-          </div>
-          <div className="w-[345px] h-[55px] top-[460px] left-[100px]">
             <p className="text-base text-[#444957] mb-8">
               Naturally made Healthcare Products for the better care & support of your body.
             </p>
           </div>
-          <button className="bg-[#E23744] text-white px-8 py-3 rounded-full">Explore Now!</button>
-        </div>
-        <div className="w-1/2 relative">
-          <Image src="/Rectangle 400.png" alt="Pizza" width={735} height={804} className="w-full rounded-bl-[200px]" />
-          <button className="z-10 absolute top-4 right-4 border border-white text-white px-3 py-1 rounded-full">
-            Get In Touch
-          </button>
-        </div>
+
+          <div className="top-[556px] left-[97px] py-[14px]">
+            <button className="bg-[#E23744] text-white px-8 py-3 rounded-full">Explore Now!</button>
+          </div>
+            
+        </div> */}
+        
                     
 
       </section>
