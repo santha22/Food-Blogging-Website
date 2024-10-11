@@ -4,9 +4,11 @@ import Image from 'next/image';
 const HeroSection = () => {
     
   return (
-    <section className="flex flex-col md:flex-row justify-between items-center mb-16">
-        <div className="relative order-2 md:order-1 w-full md:w-1/2 px-8 md:pl-24 md:pr-8 text-center md:text-left">
-          <Image src="/Screenshot_669 1.png" alt="Food Truck" width={735} height={804} className="top-10 w-20 h-16 mb-8 hidden md:inline-block" />
+    <section className="flex flex-col h-full md:flex-row justify-between items-center mb-16">
+        <div className="order-2 h-full md:order-1 w-full md:w-1/2 px-8 md:pl-24 md:pr-8 text-center md:text-left">
+          <div className="pb-64 hidden md:md:inline-block">
+            <Image src="/Screenshot_669 1.png" alt="Food Truck" width={735} height={804} className="top-10 w-20 h-16  hidden md:inline-block" />
+          </div>
           <h1 className="text-3xl md:text-5xl font-bold text-[#0E2368] leading-tight mb-6 pt-10 md:pt-0">
             Discover the <span className="text-[#E23744]">Best</span> Food and Drinks
           </h1>
