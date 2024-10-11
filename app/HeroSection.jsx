@@ -22,31 +22,7 @@ const HeroSection = () => {
           <button className="absolute top-4 right-4 border border-white text-white px-3 py-1 rounded-full text-sm">
             Get In Touch
           </button>
-        </div>
-
-
-
-          {/* <button className="z-10 absolute top-10 right-8 border border-white text-white px-3 py-1 rounded-full">
-            Get In Touch
-          </button>
-        <div className="w-full pl-24 pr-8">
-          <Image src="/Screenshot_669 1.png" alt="Food Truck" width={107} height={83} className="mb-8 absolute top-[33px] left-[100px]" />
-          <div className="w-[345px] h-[207px] top-[227px] left-[100px]">
-            <h1 className="text-3xl md:text-5xl font-bold text-[#0E2368] leading-tight mb-6">
-              Discover the <span className="text-[#E23744]">Best</span> Food and Drinks
-            </h1>
-            <p className="text-base text-[#444957] mb-8">
-              Naturally made Healthcare Products for the better care & support of your body.
-            </p>
-          </div>
-
-          <div className="top-[556px] left-[97px] py-[14px]">
-            <button className="bg-[#E23744] text-white px-8 py-3 rounded-full">Explore Now!</button>
-          </div>
-            
-        </div> */}
-        
-                    
+        </div>                    
 
       </section>
   )
